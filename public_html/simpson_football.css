@@ -1,0 +1,87 @@
+body {
+  background-color: #f7bb16;
+  font-size: 18px;
+}
+
+header {
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+section {
+  background: #ffffff;
+  max-width: 1500px;
+  padding: 20px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, sans-serif;
+}
+
+article {
+  border-style: solid;
+  border-width: 3px;
+  margin: 5px;
+  padding: 5px;
+  font-family: arial, sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial, open sans-serif;
+  font-size: 40px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+/* --- Nav Bar --- */
+nav ul {
+  list-style-type:  none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family:  arial, sans-serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  /* This is a six digit code. */
+  background-color: #b51509;
+}
+
+
+
