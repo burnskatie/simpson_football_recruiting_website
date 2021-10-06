@@ -3,44 +3,75 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="simpson_football.css">
+ <meta charset="utf-8">
   <title>Simpson Storm Football</title>
-    <style> 
-      h2 {
-        font-family: Copperplate
-      }
-    </style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" 
+        integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN"
+        crossorigin="anonymous">
 </head>
 
 <body>
-  <header>Simpson College Football</header>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home Page</a>
-        </li>
+ <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid">
+      <!-- Brand/site name -->
+      <a class="navbar-brand" href="#">Simpson College Football</a>
+      <!-- Hamburger icon -->
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Div to hide stuff if we have hamburger -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Nav bar item list -->
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <!-- This is the style for the 'active' page -->
+            <a class="nav-link" aria-current="page" href="index.html">Home Page</a>
+          </li>
 
-        <li>
-          <a href="about.html">About</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-        <li>
-          <a href="news.html">News</a>
-        </li>
-        <li>
-          <a href="schedule_and_hours.html">Schedule and Hours</a>
-        </li>
-        <li>
-          <a href="videos.html">Videos</a>
-        </li>
-        <li>
-          <a href="facilities.html">Facilities</a>
-        </li>
-      </ul>
-    </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
 
-  <img src="images/dominate.jpg" alt="Recruiting Graphic 2" />
+          <li class="nav-item active">
+            <a class="nav-link" href="schedule_and_hours.html">Schedule and Hours</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">Videos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="facilities.html">Facilities</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container">
+
+  <img style="width: 1100px;" src="images/dominate.jpg" alt="Recruiting Graphic 2" />
 
 <section>
   <h1>Simpson College Campus Hours and Football Schedule</h1>
@@ -69,10 +100,27 @@
     <p>November 13 1:00 PM @ Home vs Wartburg</p>
 
     <p>Contact our Recruiting Coordinator, Dan Kelly at dan.kelly@simpson.edu, or your area coach if you would like to come on a visit and attend a home game. The Storm will host 5 home games in 2021. The first home game is September 11 at 1:00 PM vs Stevens-Point Wisconsin</p>
+
+    <div class="card" style="width: 18rem;">
+  <img src="images/may+the+fourth.jpg" class="card-img-top" alt="May the Fourth be wth you.">
+  <div class="card-body">
+    <h5 class="card-title">Special Recruiting Visit</h5>
+    <p class="card-text">Join the storm by visiting Simpson College on May 4th, 2022 to meet the team and play a scrimmage against one another.</p>
+    <a href="#" class="btn btn-primary">Apply Here!</a>
+  </div>
+</div>
+
   </article>
 </section>
+</div>
+</header>
     <footer>
-        &copy; 2021 by Seth Howard and Zach Wemhoff
+      &copy; 2021 by Seth Howard and Zach Wemhoff
     </footer>
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+    crossorigin="anonymous">
+</script>
+</body>
 </html>

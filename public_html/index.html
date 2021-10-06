@@ -5,47 +5,80 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="simpson_football.css">
   <title>Simpson Storm Football</title>
-    <style> 
-      h2 {
-        font-family: Copperplate
-      }
 
-      
-    </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/darkly/bootstrap.min.css" 
+        integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN"
+        crossorigin="anonymous">
 </head>
 
 <body>
-  <header>Simpson College Football</header>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home Page</a>
-        </li>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <div class="container-fluid">
+      <!-- Brand/site name -->
+      <a class="navbar-brand" href="#">Simpson College Football</a>
+      <!-- Hamburger icon -->
+      <button class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Div to hide stuff if we have hamburger -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Nav bar item list -->
+        <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+          <li class="nav-item">
+            <!-- This is the style for the 'active' page -->
+            <a class="nav-link active" aria-current="page" href="index.html">Home Page</a>
+          </li>
 
-        <li>
-          <a href="about.html">About</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
-        <li>
-          <a href="news.html">News</a>
-        </li>
-        <li>
-          <a href="schedule_and_hours.html">Schedule and Hours</a>
-        </li>
-        <li>
-          <a href="videos.html">Videos</a>
-        </li>
-        <li>
-          <a href="facilities.html">Facilities</a>
-        </li>
-      </ul>
-    </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="schedule_and_hours.html">Schedule and Hours</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="videos.html">Videos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="facilities.html">Facilities</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  </header>
+
+
+<div class="container">
 
   <!-- Logo and title -->
-      <img src="images/recruiting_locker_name_tag.jpg" alt="Locker Name Tag" />
+      <img style="width: 1100px;" src="images/recruiting_locker_name_tag.jpg" alt="Locker Name Tag" />
       <!-- Picture Taken and Edited by Zach Wemhoff -->
+
 
     <section>
        <h1 style="text-align: center;">Simpson Storm Football Recruiting</h1>
@@ -58,7 +91,8 @@
       <p class="Information">The information presented by this website is designed to inform you about Simpson College Football and provide you with a resource when looking for specific information about the football program.</p>
       <p class="Interested">Interested in being apart of the team? Schedule a visit with <a href="https://simpson.edu/admission-aid/apply-simpson-college/first-year-students">Academic Resources</a> to meet the team and coaching staff that wants to win it all.</p>
 
-      <p>Roll Storm!</p>
+      <a type="button" class="btn btn-light" href="https://simpson.edu/admission-aid/apply-simpson-college/first-year-students">Roll Storm!</a>
+
     </article>
 
     <article>
@@ -97,11 +131,19 @@
       <li>See Campus</li>
       <li>You Can Even Stay Overnight with players and Experience All That Simpson Has to Offer!</li>
     </ul>
+
   </article>
 </section>
 
   <footer> 
     &copy; 2021 by Seth Howard and Zach Wemhoff
   </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+        crossorigin="anonymous">
+    </script>
+  </div>
 </body>
 </html>
